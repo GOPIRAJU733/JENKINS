@@ -4,12 +4,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Your build steps here (e.g., compiling code, running tests)
+                // Example build step
+                echo 'Building...'
             }
         }
         stage('Deploy') {
             steps {
-                // Your deployment steps here (e.g., deploying to a test server)
+                // Example deployment step
+                echo 'Deploying...'
             }
         }
     }
